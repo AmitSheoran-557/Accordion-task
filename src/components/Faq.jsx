@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ACCORDION_LIST } from '../components/utils/helper'
+import { ACCORDION_LIST } from '../utils/helper'
 
 const Faq = () => {
     const [value, setFaq] = useState("")
