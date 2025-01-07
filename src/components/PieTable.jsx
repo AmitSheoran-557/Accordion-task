@@ -43,7 +43,7 @@ const Competition = () => {
                             </div>
                             <div>
                                 {COMPETITION_TABLE_LIST.map((item, i) => (
-                                    <div className='flex w-full'>
+                                    <div className='flex w-full' key={i}>
                                         <div className={`max-w-24 min-w-[102px] w-full border-black border-t-[1px] ${i === 0 ? "border-none pt-0.5 min-w-24" : ""}`}>
                                             <div className={`mx-1 bg-white ${i === 0 ? "rounded-tl-md rounded-tr-md" : ""}  ${i === 6 ? "rounded-bl-md rounded-br-md" : ""}`}>
                                                 <p className={`mx-auto text-center text-xs font-semibold px-4 leading-[120%] flex justify-center py-[18.5px] ${i === 0 ? "border-none pt-[26px] pb-[14.3px]" : ""}  ${i === 6 ? "!min-h-[65px] !font-normal !text-[8px] max-w-[70px]" : ""}  ${i === 4 ? "!py-[28.5px]" : ""}`}>{item.icon}</p>

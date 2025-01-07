@@ -10,6 +10,7 @@ module.exports = {
         'darkTeal': '#026070',
         'yellowGreen': '#56E3CB',
       },
+      
     },
   },
   plugins: [],
