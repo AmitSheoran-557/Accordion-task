@@ -8,6 +8,7 @@ import Competition from "./components/PieTable";
 import UploadImage from "./components/UploadImage";
 import Motion from "./components/Motion";
 import Methods from "./components/Methods";
+import Theatre from "./components/Theatre";
 
 const App = () => {
   return (
@@ -19,7 +20,8 @@ const App = () => {
           <Route path="/com" element={<Competition/>} />
           <Route path="/img" element={<UploadImage/>} />
           <Route path="/motion" element={<Motion/>} />
-          <Route path="/method" element={<Methods/>} />
+          <Route path="/" element={<Methods/>} />
+          <Route path="/Theatre" element={<Theatre/>} />
       </Routes>
     </BrowserRouter>
   );
