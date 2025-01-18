@@ -21,7 +21,7 @@ const FaultyCalculator = () => {
     };
 
     return (
-        <div className='flex justify-center items-center bg-[#222] min-h-screen max-lg:px-4'>
+        <div className='flex justify-center items-center bg-lightBlack min-h-screen max-lg:px-4'>
             <div className="text-black bg-black rounded-3xl max-w-lg pt-8 w-full px-3 mx-auto">
                 <h3 className='text-white p-2 lg:text-3xl text-2xl text-center lg:mb-5 mb-3'>10% Faulty Calculator</h3>
                 <div className='mb-10'>
@@ -37,7 +37,7 @@ const FaultyCalculator = () => {
                     </div>
                 </div>
                 <div className='mb-10'>
-                <p className='text-white text-center lg:mb-5 mb-4'>It have 10% chance of addition</p>
+                <p className='text-white text-center lg:mb-5 mb-4'>It have 10% chance of subtraction</p>
 
                     <div className="flex gap-4 lg:mb-5 mb-4">
                         <input type="number" className='p-1 w-full lg:placeholder:text-sm placeholder:text-xs' value={MulA} onChange={(e) => setMulA(e.target.value)} placeholder="Enter first number" />
